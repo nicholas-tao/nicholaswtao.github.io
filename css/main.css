@@ -39,6 +39,15 @@
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 
+.background {
+
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
 
 /** 
  * ===================================================================
@@ -1567,7 +1576,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-    background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+    background: url(../images/intro-bg.jpg) no-repeat center bottom; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
