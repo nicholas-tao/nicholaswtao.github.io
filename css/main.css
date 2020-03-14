@@ -2589,7 +2589,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-    background: #ffffff;
+    background: black;
     padding-top: 7.2rem;
     padding-bottom: 2rem;
     text-align: center;
@@ -2610,7 +2610,7 @@ header .logo a {
 
 #stats .icon-part i {
     font-size: 8rem;
-    color: #000000;
+    color: white;
 }
 
 #stats .stat-count {
@@ -2623,7 +2623,7 @@ header .logo a {
 }
 
 #stats .stat-title {
-    color: black;
+    color: #FF0077;
     font-size: 2rem;
     padding-top: 2em;
 }
