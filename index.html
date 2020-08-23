@@ -1,32 +1,40 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]>
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
 <html class="no-js oldie ie9" lang="en">
 <![endif]-->
 <!--[if (gte IE 9)|!(IE)]>
 <!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->
+  <!--<![endif]-->
 
-<head>
-
+  <head>
     <!--- basic page needs
    ================================================== -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Nicholas Tao</title>
-    <meta name="description" content="Nicholas Tao is a student developer passionate about developing innovative solutions to everyday problems">
-    <meta name="keywords" content="Nicholas Tao, University of Waterloo, Computer Sciene, High School, Student, Technology, Toronto, Badminton">
-    <meta name="author" content="Nicholas Tao">
+    <meta
+      name="description"
+      content="Nicholas Tao is a student developer passionate about developing innovative solutions to everyday problems"
+    />
+    <meta
+      name="keywords"
+      content="Nicholas Tao, University of Waterloo, Computer Sciene, High School, Student, Technology, Toronto, Badminton"
+    />
+    <meta name="author" content="Nicholas Tao" />
 
     <!-- mobile specific metas
    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
     <!-- CSS
    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
 
     <!-- script
    ================================================== -->
@@ -35,121 +43,153 @@
 
     <!-- favicons
 	================================================== -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150378045-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150378045-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-150378045-1');
-
+      gtag("config", "UA-150378045-1");
     </script>
 
     <canvas class="background"></canvas>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+  </head>
 
-
-</head>
-
-<body id="top">
-
+  <body id="top">
     <!-- header 
    ================================================== -->
     <header>
-        <div class="row">
+      <div class="row">
+        <div class="top-bar">
+          <a class="menu-toggle" href="#"><span>Menu</span></a>
 
-            <div class="top-bar">
-                <a class="menu-toggle" href="#"><span>Menu</span></a>
+          <div class="logo">
+            <a href="index.html">KARDS</a>
+          </div>
 
-                <div class="logo">
-                    <a href="index.html">KARDS</a>
-                </div>
-
-                <nav id="main-nav-wrap">
-                    <ul class="main-navigation">
-                        <li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
-                        <li><a class="smoothscroll" href="#about" title="">About</a></li>
-                        <li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
-                        <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
-                    </ul>
-                </nav>
-            </div> <!-- /top-bar -->
-
-        </div> <!-- /row -->
-    </header> <!-- /header -->
+          <nav id="main-nav-wrap">
+            <ul class="main-navigation">
+              <li class="current">
+                <a class="smoothscroll" href="#intro" title="">Home</a>
+              </li>
+              <li><a class="smoothscroll" href="#about" title="">About</a></li>
+              <li>
+                <a class="smoothscroll" href="#portfolio" title="">Portfolio</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#contact" title="">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- /top-bar -->
+      </div>
+      <!-- /row -->
+    </header>
+    <!-- /header -->
 
     <!-- intro section
    ================================================== -->
     <section id="intro">
+      <div class="intro-overlay"></div>
 
-        <div class="intro-overlay"></div>
+      <div class="intro-content">
+        <div class="row">
+          <div class="col-twelve">
+            <h5>Hello, World.</h5>
+            <h1>I'm Nicholas Tao.</h1>
 
-        <div class="intro-content">
-            <div class="row">
+            <p class="intro-position">
+              <span>Student</span>
+              <span>Developer</span>
+            </p>
 
-                <div class="col-twelve">
+            <a class="button stroke smoothscroll" href="#about" title=""
+              >More About Me</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- /intro-content -->
 
-                    <h5>Hello, World.</h5>
-                    <h1>I'm Nicholas Tao.</h1>
-
-                    <p class="intro-position">
-                        <span>Student</span>
-                        <span>Developer</span>
-                    </p>
-
-                    <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-
-                </div>
-
-            </div>
-        </div> <!-- /intro-content -->
-
-        <ul class="intro-social">
-
-            <li><a href="https://www.github.com/nicholas-tao" target="_blank"><i class="fa fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/nicholastao" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="mailto:tao.nicholas1@gmail.com"><i class="fa fa-envelope"></i></a></li>
-        </ul> <!-- /intro-social -->
-
-    </section> <!-- /intro -->
-
+      <ul class="intro-social">
+        <li>
+          <a href="https://www.github.com/nicholas-tao" target="_blank"
+            ><i class="fa fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/nicholastao" target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="mailto:tao.nicholas1@gmail.com"
+            ><i class="fa fa-envelope"></i
+          ></a>
+        </li>
+      </ul>
+      <!-- /intro-social -->
+    </section>
+    <!-- /intro -->
 
     <!-- about section
    ================================================== -->
     <section id="about">
-
-        <div class="row section-intro">
-            
-            <div class="col-twelve">
-                <h5>Nice to meet you!</h5>
-                <h1>Let me introduce myself.</h1>
-                <div class = "col-four headshot">
-                    <img src = "images/headshot2.JPG" alt = "Nicholas Tao Headshot">
-                  </div>
-                <div class = "col-eight">
-                    <div class="intro-info">
-                        <!--<p class="lead">I am Nicholas, an incoming first-year Computer Science student at the University of Waterloo. As someone who enjoys learning about and working with new technologies, I am dedicated to developing innovative solutions to everyday issues. Being an active leader in multiple youth organizations and school clubs, I strive to grow as an individual and learn from others. From working as a Front End Developer at Helping Hands App, to being the Executive Director of the Toronto Youth Network, I have gained valuable experience in working collaboratively towards a common goal. Check out some of the things I've done below!</p>-->
-                        <p class="lead">
-                            I am Nicholas, an incoming first-year Computer Science student at the University of Waterloo. As someone who enjoys learning about and working with new technologies, I am dedicated to developing innovative solutions to everyday issues. Being an active leader in multiple youth organizations and school clubs, I strive to grow as an individual and learn from others. From working as a Front End Developer at Helping Hands App, to being the Executive Director of the Toronto Youth Network, I have gained valuable experience in working collaboratively towards a common goal. 
-                            <br/>
-                            <br/>
-                            I'm currently working on <a href = "https://wavechat.tech" style="font-weight: bold;">Wave</a>, a platform that connects incoming first-year university students. I'm also interning at <a href = "https://theposturehealth.com" style="font-weight: bold;">PostureHealth</a> as a Software Engineering Intern. 
-                            <br/>
-                            <br/>
-                            Check out some of the things I've done below!
-                        </p>
-                    </div>
-                </div>
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Nice to meet you!</h5>
+          <h1>Let me introduce myself.</h1>
+          <div class="col-four headshot">
+            <img src="images/headshot2.JPG" alt="Nicholas Tao Headshot" />
+          </div>
+          <div class="col-eight">
+            <div class="intro-info">
+              <!--<p class="lead">I am Nicholas, an incoming first-year Computer Science student at the University of Waterloo. As someone who enjoys learning about and working with new technologies, I am dedicated to developing innovative solutions to everyday issues. Being an active leader in multiple youth organizations and school clubs, I strive to grow as an individual and learn from others. From working as a Front End Developer at Helping Hands App, to being the Executive Director of the Toronto Youth Network, I have gained valuable experience in working collaboratively towards a common goal. Check out some of the things I've done below!</p>-->
+              <p class="lead">
+                I am Nicholas, an incoming first-year Computer Science student
+                at the University of Waterloo. As someone who enjoys learning
+                about and working with new technologies, I am dedicated to
+                developing innovative solutions to everyday issues. Being an
+                active leader in multiple youth organizations and school clubs,
+                I strive to grow as an individual and learn from others. From
+                working as a Front End Developer at Helping Hands App, to being
+                the Executive Director of the Toronto Youth Network, I have
+                gained valuable experience in working collaboratively towards a
+                common goal.
+                <br />
+                <br />
+                I'm currently working on
+                <a href="https://wavechat.tech" style="font-weight: bold;"
+                  >Wave</a
+                >, a platform that connects incoming first-year university
+                students. I'm also interning at
+                <a
+                  href="https://theposturehealth.com"
+                  style="font-weight: bold;"
+                  >PostureHealth</a
+                >
+                as a Software Engineering Intern.
+                <br />
+                <br />
+                Check out some of the things I've done below!
+              </p>
             </div>
-            
-        </div> <!-- /section-intro -->
-        <!--
+          </div>
+        </div>
+      </div>
+      <!-- /section-intro -->
+      <!--
    	<div class="row about-content">
 
    		<div class="col-six tab-full">
@@ -216,7 +256,7 @@
    		</div> 
 
    	</div> -->
-        <!--
+      <!--
    	<div class="row button-section">
    		<div class="col-twelve">
    			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
@@ -224,65 +264,61 @@
    		</div>   		
    	</div>
 -->
-    </section> <!-- /process-->
+    </section>
+    <!-- /process-->
 
     <!-- stats Section
    ================================================== -->
     <section id="stats" class="count-up">
+      <div class="row">
+        <div class="col-twelve">
+          <div
+            class="block-1-4 block-s-1-3 block-tab-1-2 block-mob-full stats-list"
+          >
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="fa fa-code"></i>
+              </div>
 
-        <div class="row">
-            <div class="col-twelve">
+              <h5 class="stat-title">
+                Developer
+              </h5>
+            </div>
+            <!-- /stat -->
 
-                <div class="block-1-4 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="fa fa-money"></i>
+              </div>
 
-                    <div class="bgrid stat">
+              <h5 class="stat-title">
+                Finance Enthusiast
+              </h5>
+            </div>
+            <!-- /stat -->
 
-                        <div class="icon-part">
-                            <i class="fa fa-code"></i>
-                        </div>
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="fa fa-bullseye"></i>
+              </div>
 
-                        <h5 class="stat-title">
-                            Developer
-                        </h5>
+              <h5 class="stat-title">
+                Goal Driven
+              </h5>
+            </div>
+            <!-- /stat -->
 
-                    </div> <!-- /stat -->
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="fa fa-heart"></i>
+              </div>
 
-                    <div class="bgrid stat">
-
-                        <div class="icon-part">
-                            <i class="fa fa-money"></i>
-                        </div>
-
-                        <h5 class="stat-title">
-                            Finance Enthusiast
-                        </h5>
-
-                    </div> <!-- /stat -->
-
-                    <div class="bgrid stat">
-
-                        <div class="icon-part">
-                            <i class="fa fa-bullseye"></i>
-                        </div>
-
-                        <h5 class="stat-title">
-                            Goal Driven
-                        </h5>
-
-                    </div> <!-- /stat -->
-
-                    <div class="bgrid stat">
-
-                        <div class="icon-part">
-                            <i class="fa fa-heart"></i>
-                        </div>
-
-                        <h5 class="stat-title">
-                            Passionate
-                        </h5>
-
-                    </div> <!-- /stat -->
-                    <!--
+              <h5 class="stat-title">
+                Passionate
+              </h5>
+            </div>
+            <!-- /stat -->
+            <!--
 					<div class="bgrid stat">
 
 						<div class="icon-part">
@@ -298,7 +334,7 @@
 						</h5>
 
 					</div> <!-- /stat -->
-                    <!--
+            <!--
 					<div class="bgrid stat">
 
 						<div class="icon-part">
@@ -314,13 +350,14 @@
 						</h5>
 
 					</div> <!-- /stat -->
-
-                </div> <!-- /stats-list -->
-
-            </div> <!-- /twelve -->
-        </div> <!-- /row -->
-
-    </section> <!-- /stats -->
+          </div>
+          <!-- /stats-list -->
+        </div>
+        <!-- /twelve -->
+      </div>
+      <!-- /row -->
+    </section>
+    <!-- /stats -->
 
     <!--
    <!-- resume Section
@@ -484,296 +521,385 @@
 		
 	</section> <!-- /features -->
 
-
     <!-- Portfolio Section
    ================================================== -->
     <section id="portfolio">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Portfolio</h5>
+          <h1>Check Out Some Things I've Done.</h1>
 
-        <div class="row section-intro">
-            <div class="col-twelve">
+          <!--<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p> -->
+        </div>
+      </div>
+      <!-- /section-intro-->
 
-                <h5>Portfolio</h5>
-                <h1>Check Out Some Things I've Done.</h1>
-
-                <!--<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p> -->
-
+      <div class="row portfolio-content">
+        <!-- portfolio-wrapper -->
+        <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/applyai1.jpg" alt="Wave" />
+              <a href="#modal-08" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">ApplyAI</h3>
+                    <span class="folio-types">
+                      Upload your resume to automatically find and apply to jobs
+                    </span>
+                  </div>
+                </div>
+              </a>
             </div>
-        </div> <!-- /section-intro-->
+          </div>
+          <!-- /folio-item -->
 
-        <div class="row portfolio-content">
-                <!-- portfolio-wrapper -->
-                <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/wavelandingpage.jpg" alt="Wave" />
+              <a href="#modal-07" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Wave Chat</h3>
+                    <span class="folio-types">
+                      Connecting first year university students, virtually
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
 
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/wavelandingpage.jpg" alt="Wave">
-                            <a href="#modal-07" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Wave Chat</h3>
-                                        <span class="folio-types">
-                                           Connecting first year university students, virtually
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/spotifinder.png" alt="SpotiFinder" />
+              <a href="#modal-01" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">SpotiFinder</h3>
+                    <span class="folio-types">
+                      Matchmaking web app based on Spotify playlists
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
 
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/spotifinder.png" alt="SpotiFinder">
-                            <a href="#modal-01" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">SpotiFinder</h3>
-                                        <span class="folio-types">
-                                           Matchmaking web app based on Spotify playlists
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/summeet.png" alt="summeet" />
+              <a href="#modal-02" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">summeet</h3>
+                    <span class="folio-types">
+                      Meeting transcriber and summarizer
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
 
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/summeet.png" alt="summeet">
-                            <a href="#modal-02" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">summeet</h3>
-                                        <span class="folio-types">
-                                            Meeting transcriber and summarizer
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/lynz.png" alt="Lynz" />
+              <a href="#modal-03" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Lynz</h3>
+                    <span class="folio-types">
+                      Web app to view busyness levels of nearby grocery stores
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
 
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/lynz.png" alt="Lynz">
-                            <a href="#modal-03" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Lynz</h3>
-                                        <span class="folio-types">
-                                            Web app to view busyness levels of nearby grocery stores
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
-                   
-                    
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/finhacks-me.jpeg" alt="Momentum">
-                            <a href="#modal-04" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">FinHacks 2019</h3>
-                                        <span class="folio-types">
-                                            A FinTech hackathon where I led a team of 15 organizers
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/finhacks-me.jpeg" alt="Momentum" />
+              <a href="#modal-04" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">FinHacks 2019</h3>
+                    <span class="folio-types">
+                      A FinTech hackathon where I led a team of 15 organizers
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
 
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/speed-typing-game.png" alt="Speed Typing Game">
-                            <a href="#modal-05" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Speed Typing Game</h3>
-                                        <span class="folio-types">
-                                            A game to test your typing speed
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
-                    
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/coronavirus-blocker.png" alt="Coronavirus Blocker Extension">
-                            <a href="#modal-06" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Coronavirus Blocker</h3>
-                                        <span class="folio-types">
-                                            A Chrome extension that redacts "Coronavirus" and "COVID-19"
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
-                    
-                    <!-- modal popups - begin
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/speed-typing-game.png" alt="Speed Typing Game" />
+              <a href="#modal-05" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Speed Typing Game</h3>
+                    <span class="folio-types">
+                      A game to test your typing speed
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img
+                src="images/coronavirus-blocker.png"
+                alt="Coronavirus Blocker Extension"
+              />
+              <a href="#modal-06" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Coronavirus Blocker</h3>
+                    <span class="folio-types">
+                      A Chrome extension that redacts "Coronavirus" and
+                      "COVID-19"
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
+
+          <!-- modal popups - begin
 	            ============================================================= -->
-                    <div id="modal-01" class="popup-modal slider mfp-hide">
+          <div id="modal-01" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="images/spotifinder.png" alt="spotifinder" />
+            </div>
 
-                        <div class="media">
-                            <img src="images/spotifinder.png" alt="spotifinder" />
-                        </div>
+            <div class="description-box">
+              <h4>SpotiFinder</h4>
+              <p>
+                The music that one listens to reveals a lot about their
+                personality. SpotiFinder is a web app that finds dating matches
+                for users based on the sentiment analysis of lyrics of songs in
+                their Spotify playlists.
+              </p>
 
-                        <div class="description-box">
-                            <h4>SpotiFinder</h4>
-                            <p>The music that one listens to reveals a lot about their personality. SpotiFinder is a web app that finds dating matches for users based on the sentiment analysis of lyrics of songs in their Spotify playlists.</p>
+              <div class="categories">Full-Stack Web Development</div>
+            </div>
 
-                            <div class="categories">Full-Stack Web Development</div>
-                        </div>
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+              <a href="https://devpost.com/software/spotifinder" target="_blank"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <!-- /modal-01 -->
 
-                        <div class="link-box">
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                            <a href="https://devpost.com/software/spotifinder" target="_blank">View Project</a>
-                        </div>
+          <div id="modal-02" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="images/summeet.png" alt="summeet" />
+            </div>
 
-                    </div> <!-- /modal-01 -->
+            <div class="description-box">
+              <h4>summeet</h4>
+              <p>
+                It's hard to keep up with and take notes during meetings.
+                Summeet is a web app that transcribes meetings in real time and
+                summarizes ideas discussed. It conveniently produces a PDF of
+                the summary at the end of each meeting.
+              </p>
 
-                    <div id="modal-02" class="popup-modal slider mfp-hide">
+              <div class="categories">Full-Stack Web Development</div>
+            </div>
 
-                        <div class="media">
-                            <img src="images/summeet.png" alt="summeet" />
-                        </div>
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+              <a href="https://devpost.com/software/summmeet" target="_blank"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <!-- /modal-01 -->
 
-                        <div class="description-box">
-                            <h4>summeet</h4>
-                            <p>It's hard to keep up with and take notes during meetings. Summeet is a web app that transcribes meetings in real time and summarizes ideas discussed. It conveniently produces a PDF of the summary at the end of each meeting.</p>
+          <div id="modal-03" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="images/lynz.png" alt="Lynz" />
+            </div>
 
-                            <div class="categories">Full-Stack Web Development</div>
-                        </div>
+            <div class="description-box">
+              <h4>Lynz</h4>
+              <p>
+                The COVID-19 pandemic has led to long line ups at grocery
+                stores. Lynz is Web app that displays the busyness levels of
+                nearby grocery stores based on crowdsourced data, so that users
+                can avoid long lines.
+              </p>
 
-                        <div class="link-box">
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                            <a href="https://devpost.com/software/summmeet" target="_blank">View Project</a>
-                        </div>
+              <div class="categories">Full-Stack Web Development</div>
+            </div>
 
-                    </div> <!-- /modal-01 -->
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+              <a href="https://devpost.com/software/lynz" target="_blank"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <!-- /modal-03 -->
 
-                    <div id="modal-03" class="popup-modal slider mfp-hide">
+          <div id="modal-04" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="images/finhacks-me.jpeg" alt="FinHacks" />
+            </div>
 
-                        <div class="media">
-                            <img src="images/lynz.png" alt="Lynz" />
-                        </div>
+            <div class="description-box">
+              <h4>FinHacks 2019</h4>
+              <p>
+                FinHacks was a fintech hackathon held on November 30, 2019 at
+                the Centre for Social Innovation. It brought together 75
+                students from across the GTA to develop innovative solutions to
+                problems in the finance industry.
+              </p>
 
-                        <div class="description-box">
-                            <h4>Lynz</h4>
-                            <p>The COVID-19 pandemic has led to long line ups at grocery stores. Lynz is Web app that displays the busyness levels of nearby grocery stores based on crowdsourced data, so that users can avoid long lines.</p>
+              <div class="categories">Leadership | Hackathon Organizing</div>
+            </div>
 
-                            <div class="categories">Full-Stack Web Development</div>
-                        </div>
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+              <a
+                href="https://www.linkedin.com/posts/activity-6612056607692062720-XmJn"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <!-- /modal-04 -->
 
-                        <div class="link-box">
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                            <a href="https://devpost.com/software/lynz" target="_blank">View Project</a>
-                        </div>
+          <div id="modal-05" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="images/speed-typing-game.png" alt="Speed Typing Game" />
+            </div>
 
-                    </div> <!-- /modal-03 -->
+            <div class="description-box">
+              <h4>Speed Typing Game</h4>
+              <p>Test your typing speed by typing quotes as fast as you can!</p>
 
-                    <div id="modal-04" class="popup-modal slider mfp-hide">
+              <div class="categories">Web Development</div>
+            </div>
 
-                        <div class="media">
-                            <img src="images/finhacks-me.jpeg" alt="FinHacks" />
-                        </div>
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+              <a
+                href="https://nicholastao.tech/Speed-Typing-Game"
+                target="_blank"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <!-- /modal-05 -->
 
-                        <div class="description-box">
-                            <h4>FinHacks 2019</h4>
-                            <p>FinHacks was a fintech hackathon held on November 30, 2019 at the Centre for Social Innovation. It brought together 75 students from across the GTA to develop innovative solutions to problems in the finance industry.</p>
+          <div id="modal-06" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img
+                src="images/coronavirus-blocker.png"
+                alt="Coronavirus Blocker Extension"
+              />
+            </div>
 
-                            <div class="categories">Leadership | Hackathon Organizing</div>
-                        </div>
+            <div class="description-box">
+              <h4>Coronavirus Blocker Extension</h4>
+              <p>
+                Tired of seeing Coronavirus all over the Internet? This Chrome
+                extension redacts "Coronavirus" and "COVID-19" from all
+                websites.
+              </p>
 
-                        <div class="link-box">
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                            <a href="https://www.linkedin.com/posts/activity-6612056607692062720-XmJn" target="_blank">Learn More</a>
-                        </div>
+              <div class="categories">Web Development</div>
+            </div>
 
-                    </div> <!-- /modal-04 -->
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+              <a
+                href="https://github.com/nicholas-tao/Coronavirus-Blocker"
+                target="_blank"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <!-- /modal-06 -->
 
-                    
-                    <div id="modal-05" class="popup-modal slider mfp-hide">
+          <div id="modal-07" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="images/wavelandingpage.jpg" alt="Wave" />
+            </div>
 
-                        <div class="media">
-                            <img src="images/speed-typing-game.png" alt="Speed Typing Game" />
-                        </div>
+            <div class="description-box">
+              <h4>Wave Chat</h4>
+              <p>
+                Wave is a web platform that connects incoming first-year
+                university students from the same university. By placing users
+                in one-on-one chats with other students who are either in their
+                program or share common interests, Wave allows meaningful
+                friendships to be formed, despite the lack of in-person
+                activities associated with one’s first year of university.
+              </p>
 
-                        <div class="description-box">
-                            <h4>Speed Typing Game</h4>
-                            <p>Test your typing speed by typing quotes as fast as you can!</p>
+              <div class="categories">Full-Stack Web Development</div>
+            </div>
 
-                            <div class="categories">Web Development</div>
-                        </div>
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+              <a href="https://wavechat.tech" target="_blank">View Project</a>
+            </div>
+          </div>
+          <!-- /modal-07 -->
 
-                        <div class="link-box">
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                            <a href="https://nicholastao.tech/Speed-Typing-Game" target="_blank">View Project</a>
-                        </div>
+          <div id="modal-08" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="images/applyai1.jpg" alt="spotifinder" />
+            </div>
 
-                    </div> <!-- /modal-05 -->
+            <div class="description-box">
+              <h4>ApplyAI</h4>
+              <p>
+                Finding and applying to jobs is time consuming, repetitive, and
+                draining. Upload your resume to ApplyAI which will parse the
+                file and allow you to edit the parsed resume data. This data is
+                used to find jobs based on your skills and experience. Select
+                which jobs you'd like to apply to and ApplyAI applies for you,
+                saving you time and energy.
+              </p>
 
-                    <div id="modal-06" class="popup-modal slider mfp-hide">
+              <div class="categories">Full-Stack Web Development</div>
+            </div>
 
-                        <div class="media">
-                            <img src="images/coronavirus-blocker.png" alt="Coronavirus Blocker Extension"/>
-                        </div>
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+              <a href="https://devpost.com/software/applyai" target="_blank"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <!-- /modal-08 -->
 
-                        <div class="description-box">
-                            <h4>Coronavirus Blocker Extension</h4>
-                            <p>Tired of seeing Coronavirus all over the Internet? This Chrome extension redacts "Coronavirus" and "COVID-19" from all websites.</p>
-
-                            <div class="categories">Web Development</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                            <a href="https://github.com/nicholas-tao/Coronavirus-Blocker" target="_blank">View Project</a>
-                        </div>
-
-                    </div> <!-- /modal-06 -->
-
-                    <div id="modal-07" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/wavelandingpage.jpg" alt="Wave"/>
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Wave Chat</h4>
-                            <p>Wave is a web platform that connects incoming first-year university students from the same university. By placing users in one-on-one chats with other students who are either in their program or share common interests, Wave allows meaningful friendships to be formed, despite the lack of in-person activities associated with one’s first year of university.
-                            </p>
-
-                            <div class="categories">Full-Stack Web Development</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                            <a href="https://wavechat.tech" target="_blank">View Project</a>
-                        </div>
-
-                    </div> <!-- /modal-07 -->
-
-
-
-                    <!-- modal popups - end
+          <!-- modal popups - end
 	            ============================================================= -->
-
-                </div> <!-- /portfolio-wrapper -->
-
-            </div> <!-- /twelve -->
-
-        </div> <!-- /portfolio-content -->
-
-    </section> <!-- /portfolio -->
-
+        </div>
+        <!-- /portfolio-wrapper -->
+      </div>
+      <!-- /portfolio-content -->
+    </section>
+    <!-- /portfolio -->
 
     <!-- CTA Section
    ================================================== 
@@ -800,7 +926,6 @@
    	</div> <!-- /cta-content 
 
    </section> <!-- /cta -->
-
 
     <!-- services Section
    ================================================== 
@@ -921,65 +1046,92 @@
     <!-- contact
    ================================================== -->
     <section id="contact">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Contact</h5>
+          <h1>I'd Love To Hear From You.</h1>
 
-        <div class="row section-intro">
-            <div class="col-twelve">
+          <!--<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>-->
+        </div>
+      </div>
+      <!-- /section-intro -->
 
-                <h5>Contact</h5>
-                <h1>I'd Love To Hear From You.</h1>
-
-                <!--<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>-->
-
-            </div>
-        </div> <!-- /section-intro -->
-
-        <div class="row contact-form">
-
-            <div class="col-twelve">
-
-                <!-- form -->
-                <form name="contactForm" id="contactForm" method="POST" action="https://formspree.io/tao.nicholas1@gmail.com">
-                    <fieldset>
-
-                        <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-                        </div>
-                        <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required=""></textarea>
-                        </div>
-                        <div class="form-field">
-                            <button class="submitform">Submit</button>
-                            <div id="submit-loader">
-                                <div class="text-loader">Sending...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </fieldset>
-                </form> <!-- Form End -->
-
-                <!-- contact-warning -->
-                <div id="message-warning">
+      <div class="row contact-form">
+        <div class="col-twelve">
+          <!-- form -->
+          <form
+            name="contactForm"
+            id="contactForm"
+            method="POST"
+            action="https://formspree.io/tao.nicholas1@gmail.com"
+          >
+            <fieldset>
+              <div class="form-field">
+                <input
+                  name="contactName"
+                  type="text"
+                  id="contactName"
+                  placeholder="Name"
+                  value=""
+                  minlength="2"
+                  required=""
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactEmail"
+                  type="email"
+                  id="contactEmail"
+                  placeholder="Email"
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactSubject"
+                  type="text"
+                  id="contactSubject"
+                  placeholder="Subject"
+                  value=""
+                />
+              </div>
+              <div class="form-field">
+                <textarea
+                  name="contactMessage"
+                  id="contactMessage"
+                  placeholder="Your Message"
+                  rows="10"
+                  cols="50"
+                  required=""
+                ></textarea>
+              </div>
+              <div class="form-field">
+                <button class="submitform">Submit</button>
+                <div id="submit-loader">
+                  <div class="text-loader">Sending...</div>
+                  <div class="s-loader">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                  </div>
                 </div>
-                <!-- contact-success -->
-                <div id="message-success">
-                    <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-                </div>
+              </div>
+            </fieldset>
+          </form>
+          <!-- Form End -->
 
-            </div> <!-- /col-twelve -->
-
-        </div> <!-- /contact-form -->
-        <!--
+          <!-- contact-warning -->
+          <div id="message-warning"></div>
+          <!-- contact-success -->
+          <div id="message-success">
+            <i class="fa fa-check"></i>Your message was sent, thank you!<br />
+          </div>
+        </div>
+        <!-- /col-twelve -->
+      </div>
+      <!-- /contact-form -->
+      <!--
    	<div class="row contact-info">
 
    		<div class="col-four tab-full">
@@ -1028,55 +1180,67 @@
    		</div>
    		
    	</div> <!-- /contact-info -->
-
-    </section> <!-- /contact -->
-
+    </section>
+    <!-- /contact -->
 
     <!-- footer
    ================================================== -->
 
-
     <!-- footer -->
     <footer>
-        <div class="row footer-main">
-
-            <div class="col-six tab-full pull-left">
-
-                <h4>Thank you for visiting my website.</h4>
-                <p>Feel free to reach out to me to learn more, work together, or just to chat!</p>
-            </div>
-
+      <div class="row footer-main">
+        <div class="col-six tab-full pull-left">
+          <h4>Thank you for visiting my website.</h4>
+          <p>
+            Feel free to reach out to me to learn more, work together, or just
+            to chat!
+          </p>
         </div>
-        <!-- end footer-main -->
+      </div>
+      <!-- end footer-main -->
 
-        <div class="row">
+      <div class="row">
+        <div class="col-six tab-full pull-right social">
+          <ul class="footer-social">
+            <li>
+              <a href="https://www.github.com/nicholas-tao" target="_blank"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/nicholastao" target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:tao.nicholas1@gmail.com"
+                ><i class="fa fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
 
-            <div class="col-six tab-full pull-right social">
+        <div class="col-six tab-full">
+          <div class="copyright">
+            <span>© Copyright Nicholas Tao 2020.</span>
+            <span
+              >Design by
+              <a href="http://www.styleshout.com/">styleshout</a></span
+            >
+          </div>
+        </div>
 
-                <ul class="footer-social">
-                    <li><a href="https://www.github.com/nicholas-tao" target="_blank"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/nicholastao" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="mailto:tao.nicholas1@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-
-            </div>
-
-            <div class="col-six tab-full">
-                <div class="copyright">
-                    <span>© Copyright Nicholas Tao 2020.</span>
-                    <span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
-                </div>
-            </div>
-
-            <div id="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-            </div>
-
-        </div> <!-- /row -->
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"
+            ><i class="fa fa-long-arrow-up"></i
+          ></a>
+        </div>
+      </div>
+      <!-- /row -->
     </footer>
 
     <div id="preloader">
-        <div id="loader"></div>
+      <div id="loader"></div>
     </div>
 
     <!-- Java Script
@@ -1084,7 +1248,5 @@
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
