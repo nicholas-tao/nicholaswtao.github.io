@@ -2,4 +2,4 @@
 
 My Personal Website
 
-Live version: https://nicholastao.tech
+Live version: https://nicholastao.com
